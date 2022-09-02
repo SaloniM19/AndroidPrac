@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/etSPGI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Add SGPI"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"/>
+    <EditText
+        android:id="@+id/etSem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester 1"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"/>
+
+    />
+    <EditText
+        android:id="@+id/etSem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester 2"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"/>
+    <!--        android:background="@drawable/border"-->
+    />
+    <EditText
+        android:id="@+id/etSem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester 3"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"/>
+    />
+    <EditText
+        android:id="@+id/etSem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester 4"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"/>
+    />
+    <EditText
+        android:id="@+id/etAvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Average of SGPIs"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="((sem1 + sem2 + sem3 +sem4)/4)"/>
+    <Button
+        android:id="@+id/btnSgpiNext"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:backgroundTint="#0D0140"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
