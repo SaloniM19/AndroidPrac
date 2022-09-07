@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "270852898679",
+    "project_id": "fir-pract-3356b",
+    "storage_bucket": "fir-pract-3356b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270852898679:android:cd091df520cc303f41ab72",
+        "android_client_info": {
+          "package_name": "com.example.student_details_jobspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270852898679-kaftmom13a4p1obmor31tgtat9ng0t29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2d0jP88OyVRCKGKCssg7nX9ju-1KC1Es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270852898679-kaftmom13a4p1obmor31tgtat9ng0t29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
