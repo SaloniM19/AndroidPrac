@@ -92,4 +92,12 @@
         android:text="Next"
         android:backgroundTint="#0D0140"
         android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnGetNext"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="GetData"
+        android:backgroundTint="#0D0140"
+        android:layout_marginTop="30dp"/>
 </LinearLayout>

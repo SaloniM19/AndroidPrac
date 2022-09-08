@@ -28,7 +28,6 @@
         android:padding="16dp"
         android:layout_marginTop="30dp"/>
 
-    />
     <EditText
         android:id="@+id/etSem2"
         android:layout_width="match_parent"
@@ -36,8 +35,6 @@
         android:hint="Semester 2"
         android:padding="16dp"
         android:layout_marginTop="20dp"/>
-    <!--        android:background="@drawable/border"-->
-    />
     <EditText
         android:id="@+id/etSem3"
         android:layout_width="match_parent"
@@ -45,7 +42,7 @@
         android:hint="Semester 3"
         android:padding="16dp"
         android:layout_marginTop="20dp"/>
-    />
+
     <EditText
         android:id="@+id/etSem4"
         android:layout_width="match_parent"
@@ -53,7 +50,7 @@
         android:hint="Semester 4"
         android:padding="16dp"
         android:layout_marginTop="20dp"/>
-    />
+
     <EditText
         android:id="@+id/etAvg"
         android:layout_width="match_parent"

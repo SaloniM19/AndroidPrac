@@ -16,7 +16,10 @@
         <activity
             android:name=".SgpiActivity"
             android:exported="false" />
-        <activity android:name=".AddressActivity" />
+        <activity
+            android:name=".AddressActivity"
+            android:exported="false"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
